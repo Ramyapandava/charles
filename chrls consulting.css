@@ -1,0 +1,269 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.button{
+    color: #000F32;
+}
+.button:hover{
+    background-color: #000F32;
+    color: white;
+}
+.navbar {
+    background-color: #000F32;
+    
+    
+}
+
+.dropdown-item:hover{
+  color: #000F32;
+  background-color: white;
+}
+
+/*.header a:hover{
+    
+    color: #000F32 ;
+}*/
+.cart{
+    position: relative;
+}
+
+.span{
+    position: absolute;
+
+bottom: 15px;
+left:10px;
+border-radius: 50%;
+font-size: 10px;
+padding:3px 7px;
+}
+.carousel-item img{
+width: 100%;
+height: 100%;
+}
+.carousel-caption{
+    
+text-align: left;
+margin-left: -110px;
+display: flex;
+justify-content: center;
+flex-flow: column;
+min-height: 50vh;
+padding: 1rem;
+width: 90%;
+margin: auto;
+
+}
+.carousel-caption h1{
+    color: #000F32;
+    font-size: 50px;
+}
+.carousel-caption button{
+    color: #000F32;
+    border: none;
+    padding: 15px 35px;
+    width: 20%;
+    background-color: white;
+}
+.carousel-caption button:hover{
+    color: white;
+    background-color: #000F32;
+}
+.box .col-lg-3 .col-sm-6 {
+    background-color: #F6F6F6;
+    box-shadow:1px 2px 30px black ;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    
+  }
+ .one{
+    margin-top: 100px;
+ }
+ .one1{
+  margin: 30px 0;
+  text-align: center;
+ }
+ .one img{
+  width: 100%;
+  margin: auto;
+ }
+ 
+  .icon{
+    font-size: 60px;
+  }
+  .row .row1{
+    margin-top: -1px;
+  }
+  .bg1{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #707d9e;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .bg1 .card img{
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .button1{
+    background-color: #000F32;
+    border: none;
+  }
+  .two{
+    padding: 60px 0px;
+    
+  }
+  .two p{
+    padding:0 20px ;
+    
+  }
+  .bg2{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #707d9e;
+    width: 100%;
+    height: 600px;
+    
+  }
+  .bg3{ 
+    margin-top: 50px;
+ }
+  .card{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card img{
+    display: block;
+  }
+  .hover1{
+    background: rgba(0,26,87,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 40px;
+    width: 100%;
+    opacity: 0;
+  }
+  .hover1:hover{
+    background: rgba(0,26,87,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    
+  }
+  .bg4{
+    margin:160px 0px ;
+    background-image: url(bg2.png);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg5{
+    background-color:#FFFFFF;
+    box-shadow:1px 1px 10px black ;
+  }
+  .bg5 img{
+    width: 100%;
+    margin: auto;
+  }
+  .four input{
+  border: none;
+  width: 90%;
+  border-bottom: 1px solid #dfdfdf;
+padding: 20px 0px;
+
+  }
+  .select{
+    border: none;
+    width: 90%;
+    border-bottom: 1px solid #dfdfdf;
+  padding: 20px 0px;
+  
+  }
+  .four .message{
+    padding-top: 20px;
+    padding-bottom: 150px;
+  
+  }
+  .bg6{
+    background-color: #F8FAFF;
+    width: 100%;
+  }
+  .bg7{
+    background-color: #001648;
+    width: 100%;
+  }
+  .five{
+    padding-top: 60px;
+  }
+
+  .six li{
+    padding-bottom: 15px;
+  }
+  .seven input{
+    background-color: transparent;
+    border: none;
+  
+    padding-bottom: 20px;
+    border-bottom:1px solid white ;
+  }
+  @media screen and (max-width:728px)
+  {
+    .one {
+      display: none;
+    }
+    
+  } 
+  @media screen and (min-width:729px)
+  {
+    .one1 {
+      display: none;
+    }
+    
+  } 
+  @media screen and (max-width:729px)
+  {
+
+  .carousel-caption h1{
+    color: #000F32;
+    font-size: 40px;
+}
+.carousel-caption p{
+  color: #000F32;
+  font-size: 5px;
+  text-align: start;
+  margin-top: 150px;
+}
+.carousel-caption .btn{
+  color: #000F32;
+  font-size: 15px;
+  width: 30%;
+  
+  }
+  .carousel-item img {
+  height: 500px;
+    
+}}
+@media screen and (max-width:469px){
+  .carousel-caption .btn {
+    color: #000F32;
+    font-size: 8px;
+    width: 50%;
+    height: 10%;
+  }  
+}
